@@ -2,6 +2,10 @@
     display: flex;
 }
 
+#diagram>div {
+    margin: 0;
+}
+
 figure {
     background-color: rgb(85, 224, 217);
     padding: 10px;
@@ -12,12 +16,8 @@ figure {
     place-items: center;
     width: max-content;
     height: max-content;
-    /* margin-top: -100px; */
+    margin: 16px 8px;
 }
-
-/* figure:nth-child(even) {
-    margin-left: 250px;
-} */
 
 #diagram2>figure:first-child {
     margin-top: 120px;
@@ -27,7 +27,6 @@ figcaption {
     color: #e51a4c;
     font-size: 1.2rem;
     font-weight: bold;
-    /* margin: 10px 0; */
     width: 250px;
     text-align: center;
 }

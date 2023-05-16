@@ -1,1 +1,1 @@
-# Diagram plástica
+# Diagrama plástica

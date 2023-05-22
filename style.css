@@ -1,22 +1,43 @@
-#diagram {
-    display: flex;
-}
-
-#diagram>div {
+body {
+    display: FLEX;
+    place-items: center;
+    flex-direction: column;
+    background-color: #ffb862;
+    border: solid 4px #e51a4c;
+    padding: 0;
     margin: 0;
 }
 
+h1 {
+    color: #e51a4c;
+    font-weight: 800;
+    font-family: 'Karla', sans-serif;
+    font-size: 70px;
+    box-shadow: solid 2px black;
+    font-weight: 200;
+    margin-bottom: 2;
+
+}
+
+#diagram {
+    display: flex;
+    border-top: solid 4px #e51a4c;
+    font-variant: JIS04;
+    padding-top: 40px;
+}
+
 figure {
-    background-color: rgb(85, 224, 217);
+    background-color: rgb(235, 215, 215);
     padding: 10px;
     border-radius: 15px;
     color: black;
     display: flex;
     flex-direction: column;
     place-items: center;
-    width: max-content;
+    width: 350px;
     height: max-content;
     margin: 16px 8px;
+    border: solid 4px #e51a4c;
 }
 
 #diagram2>figure:first-child {

@@ -15,8 +15,7 @@ h1 {
     font-size: 70px;
     box-shadow: solid 2px black;
     font-weight: 200;
-    margin-bottom: 2;
-
+    margin-bottom: 0;
 }
 
 #diagram {

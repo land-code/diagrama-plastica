@@ -8,6 +8,10 @@ body {
     margin: 0;
 }
 
+img {
+    filter: drop-shadow(2px 4px 6px black);
+}
+
 h1 {
     color: #e51a4c;
     font-weight: 800;

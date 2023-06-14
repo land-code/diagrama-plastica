@@ -8,8 +8,8 @@ body {
     margin: 0;
 }
 
-img {
-    filter: drop-shadow(2px 4px 6px black);
+.shadow {
+    filter: drop-shadow(2px 2px 6px #e51a4c);
 }
 
 h1 {
